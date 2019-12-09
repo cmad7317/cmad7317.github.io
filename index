@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<hmtl>
+	<head>
+		<meta charset="utf-8">
+		<title>My First Webpage</title>
+		<style>
+			h1 {
+			font-family: sans-serif;
+			font-size: 30px;
+			}
+		</style>
+	</head>
+	<body>
+	
+		<h2><a href="http://myfirstwebpage.com/contact">Contact</a></h2>
+		<h2><a href="http://myfirstwebpage.com/info">Info</a></h2>
+		<h1>My First Webpage</h1>
+		<h2><a href="http://myfirstwebpage.com/gallery"> Gallery</a></h2>
+		<h2><a href="http://myfirstwebpage.com/articles">Articles</a></h2>
+	
+	</body>
+</html>
