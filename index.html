@@ -11,16 +11,15 @@
 			body {
 				background-color: white;
 			}
-			.title {
-				color: black;
-				font-size: 60px;
-				text-align: left;
-				border: 0;
-				margin: 0;
-				padding: 0;
-				width: 100px;
-			}
 			.main-menu {
+				height: 100%;
+				width: 30%;
+				position: fixed;
+				z-index: 1;
+				top: 0;
+				left: 0;
+				overflow-x: hidden;
+				padding-top: 20px;
 				background-color: grey;
 				font-size: 60px;
 				text-align: left;
@@ -28,7 +27,14 @@
 				border: 0;
 				font-family: monospace;
 				color: black;
-				width: 40%;
+			}
+			.main-menu a:hover {
+				color: white;
+				background-color: dodgerblue;
+			}
+			.main-content {
+				
+			}
 			<!--	
 			}
 			.top1 {
@@ -44,11 +50,16 @@
 		</style>
 	</head>
 	<body>
-		<ul class="main-menu>
-			<li>Webpage Name</li>
-			<li><a href="page1">Author Info</a></li>
-			<li><a href="null">Articles</a></li>
-			<li><a href="null">Photatoes</a></li>
-			<li>Videoes</li>
+		<div class="main-menu">
+			<h1>Webpage Name</h1>
+			<a href="page1">Articles</a>
+			<a href="page2">Photatoes</a>
+			<a href="page3">Videoes</a>
+			<a href="page4">About the Author</a>
+		</div>
+		
+		<div class="main-content">
+			<p>Mary had a little lamb.</p>
+		</div>
 	</body>
 </html>
